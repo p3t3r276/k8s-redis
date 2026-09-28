@@ -17,5 +17,8 @@
 ## Connect from your local host machine (Optional)
 - `kubectl port-forward svc/redis-service 6379:6379` — Forwards the traffic so you can interact with Redis using a local desktop GUI tool or script at `127.0.0.1:6379`.
 
+## Stop
+- `minikube stop` — Powers down the local Kubernetes node safely.
+
 ## Tear Down
 - `kubectl delete -f redis-deploy.yaml` — Removes the deployment, pods, and service instantly.
